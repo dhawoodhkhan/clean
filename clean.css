@@ -1,0 +1,679 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: source system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.start{
+    background-image: url(image/pixel.jpg);
+    background-position: center;
+    background-size: contain;
+    color: white;
+}
+.header{
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.logo p{
+    font-size: xx-large ;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+.list1 a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.container{
+    padding: 210px 0px;
+    text-align: center;
+}
+.text{
+    font-size: 90px;
+    text-align: center;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    display: inline-block;
+}
+.container p{
+    width: 63%;
+    margin: 0px auto;
+}
+.learn{
+    padding: 20px 60px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 20px;
+}
+.download{
+    padding: 20px 60px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    margin: 20px;
+}
+.button{
+    padding: 50px;
+}
+.about{
+    text-align: center;
+    padding: 30px;
+}
+.para{
+    width: 77%;
+    margin: 0px auto;
+    padding: 30px 30px 50px ;
+}
+.bar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 50px 0px 70px;
+}
+.line{
+    width: 31%;
+}
+.progress{
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+}
+.progress::before{
+    content: "";
+    width: 60%;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: orange;
+}
+.box{
+    position: relative;
+    bottom: 17px;
+    margin: auto;
+    /* left: 40px; */
+    left: 11%;
+    background-color: orange;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding: 3px 14px;
+    font-size: large;
+}
+.box::after{
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-top: 7px solid orange;
+    margin: auto;
+    position: absolute;
+    content: " ";
+    top: 27px;
+    right: 23px;
+}
+.circle1{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: orange;
+    margin: auto;
+    position: absolute;
+    left: 60%;
+    bottom: -3px;
+}
+.progress1{
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+}
+.progress1::before{
+    content: "";
+    width: 82%;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f1d204;
+}
+.box1{
+    position: relative;
+    bottom: 17px;
+    margin: auto;
+    /* left: 112px; */
+    left: 33%;
+    background-color: #f1d204;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding: 3px 14px;
+    font-size: large;
+}
+.box1::after{
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-top: 7px solid #f1d204;
+    margin: auto;
+    position: absolute;
+    content: " ";
+    top: 27px;
+    right: 23px;
+}
+.circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #f1d204;
+    margin: auto;
+    position: absolute;
+    left: 82%;
+    bottom: -3px;
+}
+.progress2{
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+}
+.progress2::before{
+    content: "";
+    width: 86%;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #6a4d8a;
+}
+.box2{
+    position: relative;
+    bottom: 17px;
+    margin: auto;
+    /* left: 125px; */
+    left: 37%;
+    background-color: #6a4d8a;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding: 3px 14px;
+    font-size: large;
+}
+.box2::after{
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-top: 7px solid #6a4d8a;
+    margin: auto;
+    position: absolute;
+    content: " ";
+    top: 27px;
+    right: 23px;
+}
+.circle3{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #6a4d8a;
+    margin: auto;
+    position: absolute;
+    left: 86%;
+    bottom: -3px;
+}
+.sub{
+    color: orange;
+    text-align: start;
+    padding: 30px 0px;
+}
+.sub1{
+    color: #f1d204;
+    text-align: start;
+    padding: 30px 0px;
+}
+.sub1 i{
+    color: #f1d204;
+    font-size: large;
+    padding: 0px;
+}
+.sub2{
+    color: #6a4d8a;
+    text-align: start;
+    padding: 30px 0px;
+}
+.sub2 i{
+    color: #6a4d8a;
+    font-size: large;
+    padding: 0px;
+}
+.pattern{
+    background-image: url(image/pattern.png);
+    text-align: center;
+    padding: 60px 0px;
+}
+.photo{
+    width: 25%;
+}
+.pic img{
+    width: 100%;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bgimg{
+    background-image: url(image/cloudy.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgcol{
+    background-color: #6a4d8aa4;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+.bgcol img{
+    border-radius: 100%;
+    padding: 20px;
+}
+.bgcol p{
+    width: 70%;
+    margin: 0px auto;
+    background-color:#6a4d8a;
+    padding: 40px;
+    position: relative;
+}
+.tri{
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 19px 18px 0 18px;
+    border-color: #6a4d8a transparent transparent transparent;
+}
+.service{
+    text-align: center;
+    width: 85%;
+    margin: 0px auto;
+    padding: 40px 0px;
+} 
+.web{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px 0px ;
+}
+.design{
+    width: 32%;
+    margin: 0px auto;
+}
+.design p{
+    padding: 10px 0px;
+}
+.fa-pencil{
+    font-size: x-large;
+    color: orange;
+    padding: 10px;
+}
+.fa-code{
+    font-size: x-large;
+    color: yellow;
+    padding: 10px;
+}
+.fa-search{
+    font-size: x-large;
+    color: darkviolet;
+    padding: 10px;
+}
+.web1{
+    color: orange;
+}
+.web2{
+    color: yellow;
+}
+.web3{
+    color: darkviolet;
+}
+.news{
+    background-color: black;
+    color: white;
+    padding: 60px 0px;
+    text-align: center;
+}
+.news div{
+    width: 80%;
+    margin: 0px auto;
+}
+.fa-chevron-circle-right{
+    font-size: large;
+    padding: 0px 10px;
+    align-self: center;
+}
+.circle{
+    background-color: #f1d204;
+    color: white;
+    padding: 20px 40px;
+    display: inline-flex;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.cards{
+    background-color: black;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 0px 0px 80px;
+}
+.card1{
+    width: 31%;
+    background-color: white;
+    color: black;
+    height: fit-content;
+}
+.card1 h2{
+    padding:  20px 40px;
+}
+.card1 p{
+    padding: 20px 40px;
+}
+.span{
+    color: #f1d204;
+    padding: 20px 40px 40px;
+}
+.bgimg1{
+    background-image: url(image/tree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgcol1{
+    background-color: #f1d10491;
+}
+.comment{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 85%;
+    margin: 0px auto;
+    justify-content: space-around;
+    color: white;
+    padding: 50px 0px;
+}
+.comment h1{
+    font-size: 75px;
+}
+.seven{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 33%;
+   }
+.member{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 80px 0px 20px;
+    width: 85%;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.mark{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mark img{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+}
+.body1, .body2, .body3{
+    padding: 10px;
+}
+.body1 h4{
+    padding: 10px 0px;
+    color: orange;
+}
+.body2 h4{
+    padding: 10px 0px;
+    color: #f1d204;
+}
+.body3 h4{
+    padding: 10px 0px;
+    color: #6a4d8a;
+}
+.body1 p, .body2 p, .body3 p{
+    padding: 10px 0px;
+}
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in{
+    text-align: center;
+    width: 30px;
+    padding: 6px;
+    border-radius: 50%;
+}
+.body1 i{
+    border: 1px solid orange;
+    color: orange;
+}
+.body2 i{
+    border: 1px solid #f1d204;
+    color: #f1d204;
+}
+.body3 i{
+    border: 1px solid #6a4d8a;
+    color: #6a4d8a;
+}
+.cnt{
+    width: 85%;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+.cnt h1{
+    text-align: center;
+}
+.us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.add, .add1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+}
+.add1{
+    justify-content: end;
+}
+.cus{
+    border-left: 1px solid gray ;
+    padding: 10px;
+}
+.add h3{
+    padding: 10px;
+    color: orange;
+}
+.icon{
+text-align: right;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.name{
+    width: 33%;
+}
+.name div{
+    border: 1px solid gray;
+    height: 30px;
+}
+.msg{
+    width: 100%;
+}
+.msg div{
+    border: 1px solid gray;
+    height: 200px;
+}
+.send{
+    text-align: right;
+    padding: 40px 0px 10px;
+}
+.btn{
+    background-color: #f1d204;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 4px;
+    border-color: #f1d204;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.content{
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 20px 0px; */
+}
+.content h2{
+    padding: 20px 0px;
+}
+.footer ul{
+    padding: 0px;
+}
+.footer li{
+    color: gray;
+    list-style: none;
+    padding: 10px 0px;
+}
+.footer li::before{
+    content: '\276F';
+    padding: 5px;
+}
+.info{
+    padding: 0px 150px 0px 0px;
+}
+
+@media only screen and (max-width:992px){
+    
+    .start div{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo p{
+        font-size: 45px;
+    }
+    .menu li{
+        text-align: center;
+        padding: 10px;
+        font-size: larger;
+        margin: 0px auto;
+    }
+    .container{
+        padding: 0;
+    }
+    .container .text{
+        width: 100%;
+        font-size: 60px;
+        padding: 10px;
+    }
+    .pic div, .web div, .form div, .bar .line, .content div{
+        width: 50%;
+    }
+    .bar .line{
+        padding: 10px;
+    }
+    .card div{
+        width: 45%;
+        margin: 0px auto;
+    }
+    .bar .line{
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (max-width:768px){
+    
+    .start div{
+        width: 100%;
+        text-align: center;
+    }
+    .logo p{
+        font-size: 40px;
+    }
+    .menu li{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size: larger;
+    }
+    .container{
+        padding: 0;
+    }
+    .container .text{
+        width: 100%;
+        font-size: 60px;
+        padding: 10px;
+    }
+    .pic div, .about p, .web div, .cards div, .form div, .bar .line, .content div{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:576px){
+    
+    .start div{
+        width: 100%;
+        text-align: center;
+    }
+    .container p{
+        width: 80%;
+    }
+    .button button{
+        padding: 10px 20px;
+    }
+    .us .icon{
+        text-align: left;
+    }
+    .logo p{
+        font-size: 40px;
+    }
+    .menu li{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size: larger;
+    }
+    .container{
+        padding: 0;
+    }
+    .container .text{
+        width: 100%;
+        font-size: 45px;
+    }
+    .pic div, .about p, .web div, .cards div, .form div, .bar .line, .content div, .us div, .comment div{
+        width: 100%;
+    }
+}
